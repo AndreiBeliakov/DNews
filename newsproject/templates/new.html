@@ -1,0 +1,8 @@
+
+{% extends 'flatpages/default.html' %}
+
+{% block content %}
+<h3>{{ new.created|date:'d M Y' }}</h3>
+<h2>{{ new.name }}</h2>
+<td>{{ new.description }}</td>
+{% endblock content %}
